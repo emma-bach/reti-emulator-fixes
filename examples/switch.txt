@@ -1,0 +1,19 @@
+# Kapitel 1 der Vorlesung
+# Switches S[0] and S[1] in memory, using S[2] as a temporary storage
+
+LOADI 20
+STORE 0
+
+LOADI 40
+STORE 1
+
+LOAD 0
+STORE 2
+LOAD 1
+STORE 0
+LOAD 2
+STORE 1
+
+PRINT 0
+PRINT 1
+JUMP 0

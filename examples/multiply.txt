@@ -1,0 +1,32 @@
+# Kapitel 1 der Vorlesung
+# Multiplies S[0] with S[1]
+
+# Load x = 5 into S[0]
+LOADI 5
+STORE 0
+
+# Load y = 4 into S[1]
+LOADI 4
+STORE 1
+
+# Initialize the carry into S[2]
+LOADI 0
+STORE 2
+
+# Subtract one from x
+LOAD 1
+SUBI 1
+STORE 1
+
+# Jump to the end, if x = ACC < 0
+JUMPC < 5
+
+# Add y to the carry
+LOAD 2
+ADD 0
+STORE 2
+JUMP -7
+
+# Print the result and loop forever
+PRINT 2
+JUMP 0
