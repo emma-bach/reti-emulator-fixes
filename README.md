@@ -16,6 +16,8 @@ python3 reti.py <PATH TO INSTRUCTIONS> verbose
 ```
 
 ## Available Instructions
+All lines starting with `#` are treated as comments and will be ignored.
+
 ```
 LOAD i
 LOADI i
