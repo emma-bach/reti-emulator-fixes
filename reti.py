@@ -89,6 +89,8 @@ def PRINT(i):
 
 
 def get_value_from(st):
+    st = st.lower()
+
     if st == 'acc':
         return acc
 
@@ -103,6 +105,8 @@ def get_value_from(st):
 
 
 def set_value_to(d, value):
+    d = d.lower()
+
     global acc, ind, pc
     if d == 'acc':
         acc = value
