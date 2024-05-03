@@ -35,7 +35,11 @@ PRINT i
 ```
 
 **Notes:**  
-- `LOADIN` and `STOREIN` are used as follows: `LOADIN ACC IN1`
+- `LOADIN` and `STOREIN` are used as follows:
+`LOADIN j i` has the effect of `ACC := M(INj + i)`
+where `j` needs to be `0` or `1` and i can be any integer literal.
+
+
 - `JUMPC c i` is defined slightly different than in the lecture. Simply pass the conditional as the first argument c.
 - `PRINT i` is not defined in the lecture. It can be used to print the value of S[i] from memory to the console.
 

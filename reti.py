@@ -55,13 +55,13 @@ def SUBI(i):
 
 def LOADIN(j, i):
     global acc, pc
-    acc = s[ind[j], i]
+    acc = s[ind[j] + i]
     pc += 1
 
 
 def STOREIN(j, i):
     global pc
-    s[ind[j], i] = acc
+    s[ind[j] + i] = acc
     pc += 1
 
 
