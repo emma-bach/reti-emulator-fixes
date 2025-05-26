@@ -140,7 +140,7 @@ def should_jump(conditional):
     if conditional == '>=':
         return acc >= 0
 
-    raise NotImplementedError(f'conditional jump JUMPC {conditional} does not exist')
+    raise NotImplementedError(f'conditional jump JUMPC {conditional} using invalid condition {conditional}')
 
 
 def read_instructions():
