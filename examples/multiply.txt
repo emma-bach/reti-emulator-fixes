@@ -2,7 +2,7 @@
 # Multiplies S[0] with S[1]
 
 # Load x = 5 into S[0]
-LOADI 5 
+LOADI 5
 STORE 0
 
 # Load y = 4 into S[1]

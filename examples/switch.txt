@@ -1,10 +1,10 @@
 # Kapitel 1 der Vorlesung
 # Switches S[0] and S[1] in memory, using S[2] as a temporary storage
 
-LOADI 20 # arbitrary example value
+LOADI 20
 STORE 0
 
-LOADI 40 # arbitrary example value
+LOADI 40
 STORE 1
 
 LOAD 0
